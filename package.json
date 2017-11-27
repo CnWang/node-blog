@@ -1,0 +1,22 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CnWang/node-blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CnWang/node-blog/issues"
+  },
+  "homepage": "https://github.com/CnWang/node-blog#readme",
+  "dependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
