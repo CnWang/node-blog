@@ -1,3 +1,7 @@
+const fs = require('fs')
+const path = require('path')
+const staticServer = require('./static-server')
+
 class App {
     constructor() {
 
@@ -5,7 +9,10 @@ class App {
 
     initServer() {
         return (request, response) => {
-            response.end(`hello world 1`)
+            let {url} = request
+            let body = staticServer(url)
+            response.end(body)
+
         }
     }
 }
