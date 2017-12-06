@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/CnWang/node-blog#readme",
   "dependencies": {
-    "nodemon": "^1.12.1"
+    "nodemon": "^1.12.1",
+    "whatwg-fetch": "^2.0.3"
   }
 }
